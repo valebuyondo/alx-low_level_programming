@@ -20,6 +20,5 @@ int main(void)
 			putchar('$');
 		com++;
 	}
-	putchar('\n');
 	return (0);
 }
