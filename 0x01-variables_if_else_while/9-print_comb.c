@@ -18,5 +18,6 @@ int main(void)
 		}
 		com++;
 	}
+	putchar('\n');
 	return (0);
 }
