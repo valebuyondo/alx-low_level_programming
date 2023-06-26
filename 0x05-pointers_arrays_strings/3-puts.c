@@ -1,8 +1,12 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 void _puts(char *str)
 {
-	while (*str != '\0') {
-        putchar(*str);
-        str++;}
+    int i = 0;
+
+    while (str[i] != '\0') {
+        putchar(str[i]);
+        i++;
+    }
+    putchar('\n');
 }
